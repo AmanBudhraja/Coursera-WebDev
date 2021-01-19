@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Practice Form</h1>
+	<div>
+		<form action="C:\Users\AmanB\Desktop\Internships\Coursera(Web)\Coursera-WebDev\site\Tribute\index.html" target="_blank" method="post" autocomplete="on">
+
+			<label for="fname">First Name</label><br>
+			<input type="text" name="fname" id="fname"><br><br>
+			
+			<label for="lname">Last Name</label><br>
+			<input type="text" name="lname" id="lname"><br><br>
+			
+			Gender :
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label><br><br>
+			
+			<label for="birthday">Enter date of birthday</label><br>
+	  		<input type="date" id="birthday" name="birthday"><br><br>
+
+			Please select your car<br>
+			<input type="checkbox" name="car" id="car" value="Mustang">
+			<label for="car">Mustang</label>
+			<input type="checkbox" name="car1" id="car1" value="Ferrari">
+			<label for="car1">Ferrari</label>
+			<input type="checkbox" name="car2" id="car2" value="Jaguar">
+			<label for="car2">Jaguar</label><br><br>
+
+			Please select your favorite alcohol<br>
+			<select id="alcohol" name="alcohol">
+	  			<option value="beer">Beer</option>
+	  			<option value="whiskey">Whiskey</option>
+	  			<option value="wine">Wine</option>
+	  			<option value="none" selected>None</option>
+			</select><br><br>
+
+			Please select the browser<br>
+			<input list="browsers">
+	  			<datalist id="browsers">
+	    		<option value="Internet Explorer">
+			    <option value="Firefox">
+			    <option value="Chrome">
+			    <option value="Opera">
+			    <option value="Safari">
+	  			</datalist><br><br>
+			
+			<label for="email">Enter your email address</label><br>
+	  		<input type="email" id="email" name="email"><br><br>
+		  	
+
+		  	<label for="myfile">Select a file</label><br>
+		  	<input type="file" id="myfile" name="myfile"><br><br>		
+			
+			Please enter any other relevant inforamtion<br>
+			<textarea name="message" style="width:200px; height:100px;color: #c2bba7">Enter any other information.
+			</textarea><br><br>
+			
+			<input type="submit" value="Submit">
+			<input type="reset">		
+		</form>
+	</div>
+</body>
+</html>
