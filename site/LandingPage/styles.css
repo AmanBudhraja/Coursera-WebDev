@@ -1,0 +1,61 @@
+body {background-color: #7c6a6a;
+
+}
+#top {
+	background-color: #eee;
+	height: 80px;
+	margin: 20px;
+}
+#cpname {
+	position: relative;
+	text-align: center;
+	top: 15px;
+}
+#slider {
+	margin: 50px;
+	height: 400px;	
+}
+img {
+	position: relative;
+	left: 120px;
+	height: 400px;
+	width: 1000px;
+}
+
+#gen {
+	position: relative;
+	margin: 50px;
+	background-color: #eee;
+	height: 200px;
+	width: 800px;
+	left: 220px;
+}
+
+#men {
+	position: relative;
+	float: left;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qV59E-AQoig2m7MwDJRM9j8oWE4tb2DdAA&usqp=CAU");
+	height: 200px;
+	width: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#women {
+	position: relative;
+	background-image: url("https://hotproductsindemand.com/wp-content/uploads/2019/05/2019-Newest-Fashion-Hot-Sexy-Ladies-Women-Clubwear-Playsuit-Bodysuit-Party-Jumpsuit-Romper-High-Quality-Sleeveless_5.jpg");
+	height: 200px;
+	width: 350px;
+	left: 450px;
+}
+
+#m {
+	position: relative;
+	text-align: center;
+	top: 190px;
+}
+#f {
+	position: relative;
+	text-align: center;
+	top: 12px;
+}
