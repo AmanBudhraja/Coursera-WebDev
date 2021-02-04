@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(139, 62, 82);
+    font-family: "Poppins", sans-serif;
+}
+
+a, button {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.projects ul, .products ul {
+    position: absolute;
+    background: white;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+.dropdown button, .home a{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropdown button:hover, .home a:hover {
+    color: rgb(168, 158, 158);
+}
+
+
+.projects li, .products li {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects li:hover, .products li:hover {
+    background-color: rgb(218, 179, 191);
+}
+
+.projects button:focus + ul,
+.products button:focus + ul{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+}
