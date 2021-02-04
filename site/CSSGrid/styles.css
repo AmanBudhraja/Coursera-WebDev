@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background: lightcoral;
+    /*grid-area: box1;*/
+}
+.box2 {
+    background: lightblue;
+    /*grid-area: box2;*/
+}
+.box3 {
+    background: lightgreen;
+    /*grid-area: box3;
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*grid-template-columns: 1fr 1fr; /*use 1fr as size
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "box1 box2"
+    "box3 ." ;*/
+}
