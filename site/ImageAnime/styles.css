@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.title{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container{
+    height: 350px;
+    width: 300px;
+    position: relative;
+}
+
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.Animation-image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.Animation-image:hover {
+    opacity: 1;
+}
+
+.fade::after{
+    content:"Long Drive";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade:hover::after{
+    opacity: 0.5;
+}
