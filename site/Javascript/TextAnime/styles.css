@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    line-height: 80vh;
+}
+
+span{
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+span.fade{
+    opacity: 1;
+}
